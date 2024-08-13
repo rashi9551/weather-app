@@ -1,5 +1,5 @@
 import  { useEffect, useRef, useState } from 'react'
-import './Weather.css'
+import './weather.css'
 import { toast } from 'sonner'
 function Weather() {
     const[weatherData,setWeatherData]=useState(false)
